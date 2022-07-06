@@ -1,9 +1,7 @@
 import React from "react"
 import "./Home.css"
+import CV from "../pic/yousifGbareen.pdf"
 import hero from "../pic/hero.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -14,45 +12,41 @@ const Home = () => {
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Jone Lee</span>
+              Hi, I’m <span>Yousif Gbareen</span>
             </h1>
-            <h2>
-              a
+            <h1>
+              and looking for a job as :
               <span>
-                <Typewriter words={[" Professional Coder.", " Developer."]} loop cursor cursorStyle='|' typeSpeed={70} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[ " Full stack Developer."," Backend Developer."," QA Engineer."," Frontend Developer."," java Developer."]} loop cursor cursorStyle='|' typeSpeed={90} deleteSpeed={50} delaySpeed={1000} />
               </span>
-            </h2>
+              
+            </h1>
 
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
-
+            <p>Outstanding Software Practical Engineer, graduate of ORT Braude College of Engineering and professionally talented in the field of full stack development at a leading high-tech company </p>
+            <br/>
+            <br/>
+            <div className="button">
+                    <a href={CV} download="yousifGbareen.pdf"><button className='btn_shadow' >Download CV <i className='fa fa-long-arrow-right'></i></button></a>
+                    
+                    <a href="#contact" style={{  marginLeft: '30px' }}><button className='btn_shadow'  >Contact me <i className='fa fa-long-arrow-right'></i></button></a>
+              </div> 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
                   <button className='btn_shadow'>
-                    <i class='fab fa-facebook-f'></i>
+                    <i className='fab fa-facebook-f'></i>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-instagram'></i>
+                    <i className='fab fa-instagram'></i>
                   </button>
                   <button className='btn_shadow'>
-                    <i class='fab fa-linkedin-in'></i>
+                    <i className='fab fa-linkedin-in'></i>
                   </button>
                 </div>
               </div>
-              <div className='col_1'>
-                <h4>BEST SKILL ON</h4>
-                <button className='btn_shadow'>
-                  <img src={skill1} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                  <img src={skill2} alt='' />
-                </button>
-                <button className='btn_shadow'>
-                  <img src={skill3} alt='' />
-                </button>
-              </div>
             </div>
+            
           </div>
           <div className='right'>
             <div className='right_img'>
