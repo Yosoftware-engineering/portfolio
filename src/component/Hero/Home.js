@@ -3,7 +3,7 @@ import "./Home.css"
 import CV from "../pic/yousifGbareen.pdf"
 import hero from "../pic/hero.png"
 import { Typewriter } from "react-simple-typewriter"
-
+import logo1 from "../pic/skill1.png"
 const Home = () => {
   return (
     <>
@@ -34,14 +34,9 @@ const Home = () => {
               <div className='col_1'>
                 <h4>FIND WITH ME</h4>
                 <div className='button'>
+                 
                   <button className='btn_shadow'>
-                    <i className='fab fa-facebook-f'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i className='fab fa-instagram'></i>
-                  </button>
-                  <button className='btn_shadow'>
-                    <i className='fab fa-linkedin-in'></i>
+                    <img src={logo1} alt='' />
                   </button>
                 </div>
               </div>

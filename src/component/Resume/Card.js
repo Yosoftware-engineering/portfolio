@@ -1,5 +1,5 @@
 import React from "react"
-
+import { GrCheckmark } from "react-icons/gr";
 const Card = (props) => {
   return (
     <>
@@ -9,9 +9,7 @@ const Card = (props) => {
             <h2>{props.title}</h2>
             <span>{props.year}</span>
           </div>
-          <div className='rate'>
-            <button className='btn_shadow '>{props.rate}</button>
-          </div>
+         
         </div>
         <hr />
         <p>{props.desc}</p>

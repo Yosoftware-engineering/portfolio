@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-
+import { BsHeart,BsEye,BsXLg } from "react-icons/bs";
 const Card = (props) => {
   const [modal, setModal] = useState(false)
 
@@ -21,13 +21,13 @@ const Card = (props) => {
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
           <label>
-            <i className='far fa-heart'></i> {props.totalLike}
+          {props.totalLike} <BsHeart/>
           </label>
         </div>
         <div className='title'>
           <h2 onClick={toggleModal}>{props.title}</h2>
           <a href='#popup' className='arrow' onClick={toggleModal}>
-            <i class='fas fa-arrow-right'></i>
+            <BsEye/>
           </a>
         </div>
       </div>
@@ -47,14 +47,14 @@ const Card = (props) => {
               <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
-                  LIKE THIS <i class='far fa-thumbs-up'></i>
+                  LIKE THIS <BsHeart/>
                 </button>
                 <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
+                  VIEW PROJECT 
                 </button>
               </div>
               <button className='close-modal btn_shadow' onClick={toggleModal}>
-                <i class='fas fa-times'></i>
+                <BsXLg/>
               </button>
             </div>
           </div>
