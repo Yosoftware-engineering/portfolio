@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import contact1 from "./contact1.png"
 import "./Contact.css"
+import linkedin from "../pic/skill1.png"
+import emailjs from 'emailjs-com' ;
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -20,19 +22,21 @@ const Contact = () => {
       }
     })
   }
-
-  const formSubmit = (event) => {
-    event.preventDefault()
-    alert(
-      `My name is ${data.fullname}. 
-	My phone number is ${data.phone}. 
-	My email address is ${data.email}. 
-	My Subject on  ${data.subject}. 
-	Here is my message I want to say : ${data.message}. 
-	`
-    )
-  }
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents default refresh by the browser
+    emailjs.sendForm('service_wmqwver','template_y7k973u' , e.target, 'vGuqzU59vPTnACoxz')
+    .then((result) => {
+    alert("Message Sent , I will get back to you shortly", result.text);
+    },
+    (error) => {
+    alert("An error occurred, Please try again", error.text);
+    });
+    };
   
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
   return (
     <>
       <section className='Contact' id='contact'>
@@ -50,28 +54,30 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Yousif Gbareen</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
+                  <p>Software Developer</p>
+                  <p>I am highly motivated, and take care of serving high quality</p>
+                  <p>Immediately available for all areas and full-time work</p> <br />
+                 
                   <p>Phone: +972 0502847637</p>
-                  <p>Email: yosf.98.yosf@gmail.com</p> <br />
-                  <span>FIND WITH ME</span>
+                  <p>Email: yosf.98.yosf@gmail.com</p> 
+                  <p>from: Haifa District ,Israel</p>
+                  <p>Salary exp: 9000₪ - 14000₪</p><br />
+                  <p>Connect with me via Call Or MESSAGE in to my account.</p>
+                  <br /> 
+                  <span>Or via Linkedin</span>
                   <div className='button f_flex'>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
+                    
+                    <button className='btn_shadow'  onClick={() =>  openInNewTab('https://www.linkedin.com/in/yousif-gbareen-b69ab4201/')} >
+                      <img src={linkedin} height={20} width={20} alt=''></img>
                     </button>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
-                    </button>
-                    <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
-                    </button>
+                    
                   </div>
                 </div>
               </div>
             </div>
 
             <div className='right box_shodow'>
-              <form onSubmit={formSubmit}>
+              <form onSubmit={handleSubmit}>
                 <div className='f_flex'>
                   <div className='input row'>
                     <span>YOUR NAME</span>
@@ -94,7 +100,7 @@ const Contact = () => {
                   <span>YOUR MESSAGE </span>
                   <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
                 </div>
-                <button className='btn_shadow'>
+                <button className='btn_shadow' type="submit" value='Send'>
                   SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
                 </button>
               </form>

@@ -3,7 +3,12 @@ import "./Home.css"
 import CV from "../pic/yousifGbareen.pdf"
 import hero from "../pic/hero.png"
 import { Typewriter } from "react-simple-typewriter"
-import logo1 from "../pic/skill1.png"
+import linkedin from "../pic/skill1.png"
+
+const openInNewTab = (url) => {
+  const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+  if (newWindow) newWindow.opener = null
+}
 const Home = () => {
   return (
     <>
@@ -32,11 +37,11 @@ const Home = () => {
               </div> 
             <div className='hero_btn d_flex'>
               <div className='col_1'>
-                <h4>FIND WITH ME</h4>
+                <h4>FIND ME WITH</h4>
                 <div className='button'>
                  
-                  <button className='btn_shadow'>
-                    <img src={logo1} alt='' />
+                  <button className='btn_shadow' onClick={() =>  openInNewTab('https://www.linkedin.com/in/yousif-gbareen-b69ab4201/')}>
+                    <img src={linkedin} alt='' />
                   </button>
                 </div>
               </div>
