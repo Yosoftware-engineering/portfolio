@@ -12,6 +12,10 @@ const Card = (props) => {
   } else {
     document.body.classList.remove("active-modal")
   }
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
   return (
     <>
       <div className='box btn_shadow '>
@@ -41,15 +45,15 @@ const Card = (props) => {
               <img src={props.image} alt='' />
             </div>
             <div className='modal-text right'>
-              <span>Featured - Design</span>
+              <span>Full Development</span>
               <h1>{props.title}</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-              <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+              <p dangerouslySetInnerHTML={{ __html: props.pargraph  }} />
+              
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
                   LIKE THIS <BsHeart/>
                 </button>
-                <button className='btn_shadow'>
+                <button className='btn_shadow' onClick={() =>  openInNewTab(props.link)}>
                   VIEW PROJECT 
                 </button>
               </div>

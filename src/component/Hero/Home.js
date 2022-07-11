@@ -1,6 +1,7 @@
 import React from "react"
 import "./Home.css"
 import CV from "../pic/yousifGbareen.pdf"
+
 import hero from "../pic/hero.png"
 import { Typewriter } from "react-simple-typewriter"
 import linkedin from "../pic/skill1.png"
