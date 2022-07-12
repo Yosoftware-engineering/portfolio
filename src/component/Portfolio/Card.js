@@ -16,11 +16,12 @@ const Card = (props) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
     if (newWindow) newWindow.opener = null
   }
+ 
   return (
     <>
       <div className='box btn_shadow '>
         <div className='img'>
-          <img src={props.image} alt='' onClick={toggleModal} />
+          <img src={props.image} alt='' onClick={toggleModal}  />
         </div>
         <div className='category d_flex'>
           <span onClick={toggleModal}>{props.category}</span>
@@ -47,8 +48,8 @@ const Card = (props) => {
             <div className='modal-text right'>
               <span>Full Development</span>
               <h1>{props.title}</h1>
-              <p dangerouslySetInnerHTML={{ __html: props.pargraph  }} />
               
+              <p dangerouslySetInnerHTML={{ __html: props.pargraph  }} />
               <div className='button f_flex mtop'>
                 <button className='btn_shadow'>
                   LIKE THIS <BsHeart/>

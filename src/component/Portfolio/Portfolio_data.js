@@ -1,11 +1,11 @@
-import projectdetials from "../pic/Training_project_54.pdf"
+
 const Portfolio_data = [
   {
     id: 1,
     category: "DEVELOPMENT",
     totalLike: "23",
     title: "whatsApp-react native ",
-    image: "/component/pic/whatsApppic.png",
+    image: "./images/whatsApppic.png",
     link :"https://github.com/Yosoftware-engineering/WhatsApp-clone",
     pargraph:`<h4>This is full clone of WhatsApp Very similar to the WhatsApp application that we use daily,this application with authentication and image uploads.i use react native along with expo, for the database i use firebase. and also using react navigation and the contacts of the phone</h4>`,
 
@@ -16,7 +16,7 @@ const Portfolio_data = [
     category: "DEVELOPMENT",
     totalLike: "17",
     title: "Save Me -android Application",
-    image: "./image/portfolio-02.jpg",
+    image: "./pic/hero.png",
     link :"https://github.com/Yosoftware-engineering/SaveMe-App",
     pargraph:`<h4> <p style="color:blue">A smart emergency system</p> that provides efficient service to the real-time user on
     By relying on people in the area. close people. Emergency personnel,</br> part
@@ -56,7 +56,7 @@ const Portfolio_data = [
   ● School staff assigns students to programs</br>
   ●The parents are not familiar enough with the programs goals and benefits</br>
   ● The municipality has difficulty to trace and track the programs and their participants and to retrieve reports for analysis</br>
-  <a href={CV} download="projectdetials.pdf">For more details click here to view the requirements document</a></h4>  `},
+  </h4>  `},
   
 ]
 export default Portfolio_data
