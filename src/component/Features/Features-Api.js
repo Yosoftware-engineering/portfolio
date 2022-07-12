@@ -9,7 +9,7 @@ const data = [
     id: 2,
     image: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-client-web-development-flaticons-flat-flat-icons.png",
     title: "Client Side",
-    desc: " JavaScript ES6+ , REACT , Angular.js , TypeScript"
+    desc: " JavaScript ES6+ , REACT , Angular.js , Angular, TypeScript , JSON"
   },
   {
     id: 3,

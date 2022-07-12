@@ -23,7 +23,7 @@ const Home = () => {
             <h1>
               and looking for a job as :
               <span>
-                <Typewriter words={[ " Full stack Developer."," Backend Developer."," QA Engineer."," Frontend Developer."," java Developer."]} loop cursor cursorStyle='|' typeSpeed={90} deleteSpeed={50} delaySpeed={1000} />
+                <Typewriter words={[ " Full stack Developer."," Backend Developer."," Frontend Developer."," java Developer."," QA Engineer."]} loop cursor cursorStyle='|' typeSpeed={90} deleteSpeed={50} delaySpeed={1000} />
               </span>
               
             </h1>
