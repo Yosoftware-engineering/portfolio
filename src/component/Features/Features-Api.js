@@ -33,7 +33,7 @@ const data = [
     id: 6,
     image: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-quality-assurance-mobile-app-development-flaticons-lineal-color-flat-icons.png",
     title: " Quality Assurance",
-    desc: " Write STP,STD,STR Files ,testing Web & Cloud & Moblie ,high level Sql Queries , Working with characterizations ",
+    desc: "Write Automation scripts , Write STP,STD,STR Files ,testing Web & Cloud & Moblie ,high level Sql Queries , Working with characterizations ",
   },
   {
     id: 7,
@@ -41,5 +41,6 @@ const data = [
     title: "Operation System",
     desc: " Windows , Linux , Mac ,kali Machine",
   },
+ 
 ]
 export default data
