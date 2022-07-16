@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e31116e.css",
-    "main.js": "/static/js/main.13307579.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/yousifGbareen.pdf": "/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
-    "static/media/contact1.png": "/static/media/contact1.8ddfbfd11798f881db54.png",
-    "static/media/developer.png": "/static/media/developer.9a6de32aaa458e369152.png",
-    "index.html": "/index.html",
-    "main.5e31116e.css.map": "/static/css/main.5e31116e.css.map",
-    "main.13307579.js.map": "/static/js/main.13307579.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.5e31116e.css",
+    "main.js": "/portfolio/static/js/main.b616c0a6.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/yousifGbareen.pdf": "/portfolio/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
+    "static/media/contact1.png": "/portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/developer.png": "/portfolio/static/media/developer.9a6de32aaa458e369152.png",
+    "index.html": "/portfolio/index.html",
+    "main.5e31116e.css.map": "/portfolio/static/css/main.5e31116e.css.map",
+    "main.b616c0a6.js.map": "/portfolio/static/js/main.b616c0a6.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e31116e.css",
-    "static/js/main.13307579.js"
+    "static/js/main.b616c0a6.js"
   ]
 }
