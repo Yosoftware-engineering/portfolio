@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Yosoftware-engineering.github.io/portfolio/static/css/main.c7985842.css",
-    "main.js": "/Yosoftware-engineering.github.io/portfolio/static/js/main.83cb8911.js",
+    "main.css": "/Yosoftware-engineering.github.io/portfolio/static/css/main.06dda2fa.css",
+    "main.js": "/Yosoftware-engineering.github.io/portfolio/static/js/main.e0d39026.js",
     "static/js/787.1ed0c42c.chunk.js": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/yousifGbareen.pdf": "/Yosoftware-engineering.github.io/portfolio/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
     "static/media/contact1.png": "/Yosoftware-engineering.github.io/portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
     "static/media/developer.png": "/Yosoftware-engineering.github.io/portfolio/static/media/developer.9a6de32aaa458e369152.png",
     "index.html": "/Yosoftware-engineering.github.io/portfolio/index.html",
-    "main.c7985842.css.map": "/Yosoftware-engineering.github.io/portfolio/static/css/main.c7985842.css.map",
-    "main.83cb8911.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/main.83cb8911.js.map",
+    "main.06dda2fa.css.map": "/Yosoftware-engineering.github.io/portfolio/static/css/main.06dda2fa.css.map",
+    "main.e0d39026.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/main.e0d39026.js.map",
     "787.1ed0c42c.chunk.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7985842.css",
-    "static/js/main.83cb8911.js"
+    "static/css/main.06dda2fa.css",
+    "static/js/main.e0d39026.js"
   ]
 }
