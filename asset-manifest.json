@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5e31116e.css",
-    "main.js": "/portfolio/static/js/main.9dd80813.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/yousifGbareen.pdf": "/portfolio/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
-    "static/media/contact1.png": "/portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
-    "static/media/developer.png": "/portfolio/static/media/developer.9a6de32aaa458e369152.png",
-    "index.html": "/portfolio/index.html",
-    "main.5e31116e.css.map": "/portfolio/static/css/main.5e31116e.css.map",
-    "main.9dd80813.js.map": "/portfolio/static/js/main.9dd80813.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/Yosoftware-engineering.github.io/portfolio/static/css/main.a4af16f9.css",
+    "main.js": "/Yosoftware-engineering.github.io/portfolio/static/js/main.118d1e78.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/yousifGbareen.pdf": "/Yosoftware-engineering.github.io/portfolio/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
+    "static/media/contact1.png": "/Yosoftware-engineering.github.io/portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/developer.png": "/Yosoftware-engineering.github.io/portfolio/static/media/developer.9a6de32aaa458e369152.png",
+    "index.html": "/Yosoftware-engineering.github.io/portfolio/index.html",
+    "main.a4af16f9.css.map": "/Yosoftware-engineering.github.io/portfolio/static/css/main.a4af16f9.css.map",
+    "main.118d1e78.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/main.118d1e78.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e31116e.css",
-    "static/js/main.9dd80813.js"
+    "static/css/main.a4af16f9.css",
+    "static/js/main.118d1e78.js"
   ]
 }
