@@ -134,7 +134,7 @@ body.active-modal {
   margin: 0;
 }
 /*------------popup--------*/
-@media (max-width: 768px) {
+@media (max-width:-ms-fullscreen) {
   .modal,
   .overlay {
     overflow: scroll;
