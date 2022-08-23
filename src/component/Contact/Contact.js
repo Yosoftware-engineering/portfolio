@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <div className='details'>
                   <h1>Yousif Gbareen</h1>
-                  <p>Software Developer</p>
+                  <p>Full Stack Developer</p>
                   <p>I am highly motivated, and take care of serving high quality</p>
                   <p>Immediately available for all areas and full-time work</p> <br />
                  
