@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://Yosoftware-engineering.github.io/portfolio",
+  "homepage": "https://github.com/Yosoftware-engineering.github.io/portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
