@@ -8,7 +8,7 @@ const data = [
   {
     id: 2,
     image: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-client-web-development-flaticons-flat-flat-icons.png",
-    title: "Client Side",
+    title: "          Client Side",
     desc: " JavaScript ES6+ , REACT , Angular.js , Angular, TypeScript , JSON"
   },
   {
@@ -29,12 +29,12 @@ const data = [
     title: "Databases",
     desc: "SQL Server , MySQL  ,Firebase",
   },
-  {
-    id: 6,
-    image: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-quality-assurance-mobile-app-development-flaticons-lineal-color-flat-icons.png",
-    title: " Quality Assurance",
-    desc: "Write Automation scripts , Write STP,STD,STR Files ,testing Web & Cloud & Moblie ,high level Sql Queries , Working with characterizations ",
-  },
+  // {
+  //   id: 6,
+  //   image: "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-quality-assurance-mobile-app-development-flaticons-lineal-color-flat-icons.png",
+  //   title: " Quality Assurance",
+  //   desc: "Write Automation scripts , Write STP,STD,STR Files ,testing Web & Cloud & Moblie ,high level Sql Queries , Working with characterizations ",
+  // },
   {
     id: 7,
     image: "https://img.icons8.com/cute-clipart/64/000000/linux-client.png",
