@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Yosoftware-engineering.github.io/portfolio/static/css/main.06dda2fa.css",
-    "main.js": "/Yosoftware-engineering.github.io/portfolio/static/js/main.e0d39026.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/yousifGbareen.pdf": "/Yosoftware-engineering.github.io/portfolio/static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
-    "static/media/contact1.png": "/Yosoftware-engineering.github.io/portfolio/static/media/contact1.8ddfbfd11798f881db54.png",
-    "static/media/developer.png": "/Yosoftware-engineering.github.io/portfolio/static/media/developer.9a6de32aaa458e369152.png",
-    "index.html": "/Yosoftware-engineering.github.io/portfolio/index.html",
-    "main.06dda2fa.css.map": "/Yosoftware-engineering.github.io/portfolio/static/css/main.06dda2fa.css.map",
-    "main.e0d39026.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/main.e0d39026.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Yosoftware-engineering.github.io/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "./static/css/main.06dda2fa.css",
+    "main.js": "./static/js/main.029ea811.js",
+    "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
+    "static/media/yousifGbareen.pdf": "./static/media/yousifGbareen.b8e1635b5f56e6e50819.pdf",
+    "static/media/contact1.png": "./static/media/contact1.8ddfbfd11798f881db54.png",
+    "static/media/developer.png": "./static/media/developer.9a6de32aaa458e369152.png",
+    "index.html": "./index.html",
+    "main.06dda2fa.css.map": "./static/css/main.06dda2fa.css.map",
+    "main.029ea811.js.map": "./static/js/main.029ea811.js.map",
+    "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06dda2fa.css",
-    "static/js/main.e0d39026.js"
+    "static/js/main.029ea811.js"
   ]
 }
