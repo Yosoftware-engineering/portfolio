@@ -60,8 +60,6 @@ const Contact = () => {
                  
                   <p>Phone: +972 0502847637</p>
                   <p>Email: yosf.98.yosf@gmail.com</p> 
-                  <p>from: Haifa District ,Israel</p>
-                  <p>Salary exp: 9000₪ - 14000₪</p><br />
                   <p>Connect with me via Call Or MESSAGE in to my account.</p>
                   <br /> 
                   <span>Or via Linkedin</span>
